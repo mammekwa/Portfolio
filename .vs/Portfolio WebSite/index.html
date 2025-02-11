@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mammekwa Calvin Malepe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <h1>Mammekwa Malepe</h1>
+        <p>Software Developer | Data Analyst | Digital Transformation Enthusiast</p>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Mammekwa Malepe, a passionate software developer and data enthusiast with a National Diploma in
+                Information Technology (Software Development) from Tshwane University of Technology. My focus lies in crafting
+                solutions through code, whether it's building dynamic web applications or performing insightful data analysis. I
+                enjoy solving complex problems and collaborating with others to turn ideas into impactful projects. Let’s build
+                something amazing together.
+            </p>
+        </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <div class="project-container project-card">
+                        <img src="images/insights.jpg"
+                             alt="Data Science Image"
+                             loading="lazy"
+                             class="project-pic" />
+
+                        <h3 class="AppStoreInsights"></h3>
+                        <p class="project-details">
+                            AppStore Insights is a data analysis project focused on exploring trends and patterns in the mobile app marketplace.
+                            By analyzing app store data, this project aims to provide valuable insights into app categories, user preferences,
+                            and market dynamics.
+                        </p>
+                        <a href="https://github.com/mammekwa/AppstoreInsights" target="_blank" class="project-link">Check it Out</a>
+                    </div>
+                    <div class="project-container project-card">
+                        <img src="images/prime_Num.jpg"
+                             alt="Mathematics Board Image"
+                             loading="lazy"
+                             class="project-pic" />
+                        <!--Photo by Josh Sorenson: https://www.pexels.com/photo/ethernet-cables-plugged-on-a-server-rack-1054397/ -->
+                        <h3 class="PrimeNumCheck"></h3>
+                        <p class="project-details">
+                            This project contains a simplified and optimized implementation of a prime number checker in Java. The code
+                            allows users to input a number and determine whether it is prime, while improving upon a standard approach for
+                            efficiency, readability, and maintainability.
+                        </p>
+                        <a href="https://github.com/mammekwa/PrimeNumberCheck" target="_blank" class="project-link">Check it Out</a>
+                    </div>
+                </div>
+
+            </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mzzbzppb" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formResponse"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<footer>
+    <!---Photo by Lukas: https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/-->
+    <!---Photo by George Becker: https://www.pexels.com/photo/1-1-3-text-on-black-chalkboard-374918/-->
+
+</footer>
