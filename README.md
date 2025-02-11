@@ -14,7 +14,8 @@ The website is built using HTML, CSS, and JavaScript and features a responsive d
 - JavaScript: Adding interactivity (menu toggle and form submission handling).
 
 ## Setup
-1. Git clone
+1. Git clone https://github.com/mammekwa/Portfolio.git
+ cd Portfolio  
 2. Open in a Code Editor
 
 Use VS Code or any preferred editor to modify the files.
